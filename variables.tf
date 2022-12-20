@@ -36,3 +36,16 @@ variable "label_prefix" {
   type        = string
   default     = "FIN"
 }
+
+#compartment parameters
+variable "compartment_name" {
+  description = "compartment id where to create all resources"
+  type        = string
+  default = "Retail_compartment"
+}
+
+variable "compartment_description" {
+  description = "compartment id where to create all resources"
+  type        = string
+  default = "this contains all the retail resources"
+}
