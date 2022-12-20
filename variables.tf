@@ -26,7 +26,7 @@ variable "user_id" {
 
 # general oci parameters
 
-variable "Parent_compartment_id" {
+variable "compartment_id" {
   description = "compartment id where to create all resources"
   type        = string
 }
