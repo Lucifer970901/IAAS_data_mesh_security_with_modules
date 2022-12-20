@@ -14,9 +14,5 @@ variable "compartment_name" {
   type        = string
   default     = "Retail"
 }
-variable "Parent_compartment_id" {
-  description = "compartment id where to create all resources"
-  type        = string
-}
 
 
