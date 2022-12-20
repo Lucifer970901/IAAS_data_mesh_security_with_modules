@@ -49,3 +49,7 @@ variable "compartment_description" {
   type        = string
   default = "this contains all the retail resources"
 }
+variable "compartments" {
+  type    = any
+  default = {}
+}
