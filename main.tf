@@ -5,7 +5,7 @@ module "main_compartment" {
   
 }
   module "base_subnet" {
-  source              = "./compartments/sub_compartments"
+  source              = "././sub_compartments"
   subcompartments             = var.subcompartments
   vcn_id              = module.main_compartment.compartment_id_output
   compartment_id = var.compartment_id
